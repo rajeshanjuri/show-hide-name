@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 200px;
+  width: 300px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #dd1264;
+  border: none;
+  border-radius: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hide-name {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #fddddb;
+  border-radius: 12px;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  padding-left: 106px;
+  padding-right: 106px;
+}
